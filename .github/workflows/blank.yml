@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Alura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .search-form {
+            margin: 20px 0;
+        }
+        .search-form input[type="text"] {
+            padding: 10px;
+            width: calc(100% - 22px);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .search-form input[type="submit"] {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .search-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Projeto Alura</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <img src="https://via.placeholder.com/800x400?text=Imagem+de+Basquete" alt="Imagem de Basquete">
+        </div>
+
+        <div class="search-form">
+            <h2>Pesquisa sobre Basquete</h2>
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Digite sua pesquisa sobre basquete..." required>
+                <input type="submit" value="Pesquisar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
